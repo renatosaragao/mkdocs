@@ -14,7 +14,7 @@ site_url: 'https://renatosaragao.github.io/mkdocs'
 # Configuration
 theme:
   name: material
-  custom_dir: theme
+#  custom_dir: theme
 #  static_templates:
 #  - 'home.html'
 #  - 'get_started.html'
@@ -81,8 +81,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+#  - pymdownx.emoji:
+#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:

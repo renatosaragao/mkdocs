@@ -1,1 +1,102 @@
-site_name: My Docs
+# Project information
+site_name: 'Mkdocs Documentation'
+site_description: 'Mkdocs Documentation'
+site_author: 'Renato Aragão'
+site_url: 'https://renatosaragao.github.io/mkdocs'
+
+# Repository
+#repo_name: 'citsmart/docs'
+#repo_url: 'https://github.com'
+
+# Copyright
+#copyright: 'Copyright &copy; 2019 CITSmart'
+
+# Configuration
+theme:
+  name: material
+  custom_dir: theme
+#  static_templates:
+#  - 'home.html'
+#  - 'get_started.html'
+#  - 'citsmart_platform.html'
+#  - 'citsmart_neuro.html'
+#  - 'videos.html'
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    primary: indigo
+    accent: orange
+  font:
+    text: Roboto
+    code: Roboto Mono
+#  logo: assets/images/citsmart_logo.png
+#  favicon: assets/images/favicon.ico
+  feature:
+    tabs: true
+
+# Extra CSS
+#extra_css:
+#  - 'assets/stylesheets/extra-docs.css'
+#  - 'assets/stylesheets/home.css'
+
+# Plugins
+plugins:
+    - search:
+        lang: en
+
+# Customization
+#extra:
+#  social:
+#    - type: 'twitter'
+#      link: 'https://twitter.com/cit_smart'
+#    - type: 'facebook'
+#      link: 'https://pt-br.facebook.com/pages/category/Science--Technology---Engineering/CITSmart-754337128060477/'
+#    - type: 'linkedin'
+#      link: 'https://pt.linkedin.com/company/citsmart'
+#    - type: 'youtube'
+#      link: 'https://www.youtube.com/channel/UCpfmjLsOfPYmnjyoW5QyKuQ'
+
+#hidden: ['Home', 'MailUs']
+#nav_right: ['About', 'Contact']
+
+# Google Analytics
+#google_analytics:
+#  - 'UA-131806581-4'
+#  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Generate page .html
+use_directory_urls: false
+
+# Nav tree

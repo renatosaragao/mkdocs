@@ -5,11 +5,11 @@ site_author: 'Renato Aragão'
 site_url: 'https://renatosaragao.github.io/mkdocs'
 
 # Repository
-#repo_name: 'citsmart/docs'
-#repo_url: 'https://github.com'
+#repo_name: 'renatosaragao/mkdocs'
+#repo_url: 'https://github.com/renatosaragao/mkdocs'
 
 # Copyright
-#copyright: 'Copyright &copy; 2019 CITSmart'
+#copyright: 'Copyright &copy; 2024 Renato Aragao'
 
 # Configuration
 theme:
@@ -17,10 +17,7 @@ theme:
 #  custom_dir: theme
 #  static_templates:
 #  - 'home.html'
-#  - 'get_started.html'
-#  - 'citsmart_platform.html'
-#  - 'citsmart_neuro.html'
-#  - 'videos.html'
+
 
   # Default values, taken from mkdocs_theme.yml
   language: en
@@ -30,7 +27,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-#  logo: assets/images/citsmart_logo.png
+#  logo: assets/images/logo.png
 #  favicon: assets/images/favicon.ico
   feature:
     tabs: true
@@ -49,20 +46,20 @@ plugins:
 #extra:
 #  social:
 #    - type: 'twitter'
-#      link: 'https://twitter.com/cit_smart'
+#      link: 'https://'
 #    - type: 'facebook'
-#      link: 'https://pt-br.facebook.com/pages/category/Science--Technology---Engineering/CITSmart-754337128060477/'
+#      link: 'https://'
 #    - type: 'linkedin'
-#      link: 'https://pt.linkedin.com/company/citsmart'
+#      link: 'https://'
 #    - type: 'youtube'
-#      link: 'https://www.youtube.com/channel/UCpfmjLsOfPYmnjyoW5QyKuQ'
+#      link: 'https://'
 
 #hidden: ['Home', 'MailUs']
 #nav_right: ['About', 'Contact']
 
 # Google Analytics
 #google_analytics:
-#  - 'UA-131806581-4'
+#  - 'UA-'
 #  - 'auto'
 
 # Extensions
